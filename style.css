@@ -1,0 +1,190 @@
+body{
+background-color: black;
+color:seashell;
+opacity: 0.8;
+margin: 0 auto;
+width: 100%;
+
+
+}
+h4{
+    margin: 10px 0px 20px 0px;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+}
+
+.txt-center{
+    text-align: center;
+    
+
+}
+header{
+    background-color: black;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 69px;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+   
+}
+
+
+
+.header ul{
+    margin-right: 10px;
+}
+.header li{
+    margin-left: 10px;
+    display: inline-block;
+    text-decoration: underline;
+}
+a:visited{
+    color: white;
+
+}
+header img{
+    margin-left: 10px;
+    height: 50px;
+    width: auto;
+}
+
+
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.txt-banner{
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    width: 1200px;
+}
+
+.banner img{
+   
+    width: 1200px;
+    height: 700px;
+    max-width: 100%;
+    margin-top: 69px;
+
+   
+    
+}
+
+
+section{
+    margin: 0 auto;
+    max-width: 1000px;  
+    justify-content: space-around;
+    
+}
+
+.wrap{
+     
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+
+}
+.wrap2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.card{
+padding: 0px 10px;
+
+}
+
+.content-txt{
+text-align: center;
+margin: 0 auto;
+padding: 0;
+}
+
+
+.locations{
+    background-image: url(./img/img-locations-background.jpg);
+    position: relative;
+    background-color: grey;
+    margin:10px auto;
+    width: 1200px;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+.txt-locations{
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100px;
+    margin-bottom: 20px;
+    
+    
+   
+   
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+   
+
+}
+
+.box{
+    background-color: black;
+    width: 300px;
+    margin: 15px 40px;
+    text-align: center;
+    line-height: 30px;
+    padding: 2px 0px;
+    
+}
+
+.teaCozy{
+    height: 200px;
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+footer{
+    
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    padding: 10px 20px;
+}
+footer h4{
+   text-align: right;
+}
+
+
